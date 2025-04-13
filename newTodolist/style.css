@@ -1,0 +1,62 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+body{
+    background-color: pink;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.container{
+    background: white;
+    padding: 20px;
+    max-width: 500px;
+    margin-inline: auto;
+}
+
+.container .wrap{
+    display: flex;
+}
+
+#task{
+    width: 100%;
+    padding: 10px;
+}
+
+#add-task{
+    flex-shrink: 0;
+}
+
+.task-list ol li{
+    padding-block: 20px;
+    position: relative;
+}
+
+.task-list ol li p{
+    font-size: 2rem;
+}
+.btns{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.finish{
+    background-color: yellow;
+}
+
+.delete{
+    background-color: red;
+}
+
+.first-item{
+    display: none;
+    text-decoration: line-through;
+}
